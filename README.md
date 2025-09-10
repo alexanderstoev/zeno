@@ -1,29 +1,17 @@
-# Create T3 App
+# Zeno  
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+**Zeno** is a lightweight personal productivity app for capturing **notes** (like meeting notes) and turning them into **tasks**.  
+You can link notes and tasks together to build a complete picture of an initiative, making it easier to track ideas from discussion to action.  
 
-## What's next? How do I make an app with this?
+## Tech Stack  
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
-
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
-
-## Learn More
-
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
-
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
-
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- **Next.js** – Fast, flexible, and easy to deploy on Vercel.  
+- **T3** - Great boilerplate
+- **NextAuth.js** – Simple authentication, great fit with the T3 stack.  
+- **Drizzle ORM** – Minimal abstraction over SQL with smooth migration from SQLite to PostgreSQL when scaling.  
+- **tRPC** – End-to-end type safety for communication between client and server.  
+- **Zod** – Runtime schema validation and type inference.  
+- **shadcn/ui** – Accessible, reusable React components.  
+- **Tailwind CSS** – Utility-first styling (and integrates seamlessly with shadcn/ui).  
+- **next-themes** – Easy light/dark mode support.  
+- **Moment.js** – Convenient utilities for working with dates and times.  
